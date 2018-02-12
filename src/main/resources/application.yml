@@ -1,0 +1,8 @@
+server:
+  port: 8761
+  contextPath: /discovery-primary
+eureka:
+  instance:
+    hostname: discovery-primary
+  client:
+    defaultZone: http://discovery-secondary/discovery-secondary/eureka
